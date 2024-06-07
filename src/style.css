@@ -1,0 +1,166 @@
+/* Style for the header container */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo image */
+.logoimg {
+    width: 100px;
+}
+
+/* Style for the navigation items */
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0; 
+}
+
+/* Style for each navigation item */
+.nav-items li {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for navigation items */
+.nav-items li:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Style for the body container */
+.body {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+/* Container for the search bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the search input field */
+.search-bar input {
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect for the search input field */
+.search-bar input:focus {
+    border-color: #007bff;
+}
+
+/* Style for the search button */
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover and active effects for the search button */
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.search-bar button:active {
+    transform: scale(0.98);
+}
+
+
+/* Style for the restaurant card container */
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;  /* Space between the cards */
+    padding: 20px;  /* Add some padding around the container */
+    background-color: #f7f7f7;  /* Set a light background color */
+}
+
+/* Style for the restaurant card */
+.res-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;  /* Set a fixed width for the cards */
+    transition: transform 0.2s;
+}
+
+/* Hover effect for the restaurant card */
+.res-card:hover {
+    transform: translateY(-5px);  /* Lift the card slightly on hover */
+}
+
+/* Style for the restaurant image */
+.res-image {
+    width: 100%;
+    height: 150px;  /* Set a fixed height for the image */
+    overflow: hidden;
+}
+
+.res-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the restaurant description */
+.res-description {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the restaurant name */
+.res-description h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Style for the rating and other details */
+.res-description h4 {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Style for the cuisine type */
+.res-description p {
+    font-size: 0.9em;
+    margin: 3px 0;
+    color: #777;
+}
